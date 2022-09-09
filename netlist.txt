@@ -1,0 +1,16 @@
+* Netlist created with www.circuit-diagram.org
+* Thermal Detonator
+'speaker b:0 a:1
+D1 2 3
+D2 4 3
+D3 5 3
+D4 6 3
+'pushswitch b:7 a:3 t=Push closed=False
+R5 8 9 1000
+V6 3 10 5
+'microcontroller #4:11 #10:0 #14:1 #12:3 #0:12 #2:9 header=DFPlayer Mini sz=16 p0=VCC p1=Busy p2=RX p3=USB- p4=TX p5=USB+ p6=DAC_R p7=ADKEY_2 p8=DAC_I p9=ADKEY_1 p10=SPK_1 p11=IO_2 p12=GND p13=GND p14=SPK_2 p15=IO_1 p16= p17= p18= p19= p20= p21= p22= p23= p24= p25= p26= p27= p28= p29= p30= p31= p32= p33= p34= p35= p36= p37= p38= p39=
+'Arduino Nano 5:13 23:7 7:14 6:15 4:16 27:11 11:12 13:3 14:10 28:8
+R7 2 14 220
+R8 4 15 220
+R9 5 13 220
+R10 6 16 220
